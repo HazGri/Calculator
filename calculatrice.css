@@ -1,0 +1,90 @@
+#div_btns {
+    display: flex;
+    flex-wrap: wrap;
+}
+span {
+    width: 58px;
+    height: 48px;
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(154, 151, 151);
+    font-size: 27px;
+    cursor: pointer;
+}
+span:active {
+    background-color: rgb(193, 182, 182);
+}
+.btn-orange {
+    background-color: rgba(255, 166, 0, 0.889);
+}
+.btn-orange:active {
+    background-color: rgba(255, 166, 0, 0.442);
+}
+.btn-grey {
+    background-color: grey;
+}
+#zero {
+    width: 117px;
+    border-bottom-left-radius: 4px;
+}
+#egal {
+    border-bottom-right-radius: 4px;
+}
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(58, 121, 173);
+    color: #fafafa;
+}
+
+.container {
+    height: 325px;
+    width: 236px;
+    border: 2px solid white;
+    margin : 100px auto;
+    border-radius: 8px;
+    position: relative;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.circle {
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    border-radius: 999px;
+    top: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 13px;;
+;
+}
+
+.red {
+    background-color: rgb(248, 83, 83);
+    left: 5px;
+}
+.yellow {
+    background-color: rgb(255, 234, 0);
+    left: 25px;
+}
+.green {
+    background-color: rgb(86, 218, 30);
+    left: 45px;
+}
+#afficheur {
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 50px;
+    background-color: rgb(46, 44, 44);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-right: 10px;
+}
